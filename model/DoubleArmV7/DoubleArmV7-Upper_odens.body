@@ -968,7 +968,88 @@ links:
     jointMotorForceRange: [ -12000.0, 12000.0 ]
     jointLockForceRange: [ -12000.0, 12000.0 ]
     elements:
-      Transform:
+      -
+        type: Camera
+        name: Front_SideL
+        translation: [ -0.5, 0.5, 0.6 ]
+        rotation: [ [0, 0, 1, 135], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        format: COLOR
+        width: 640
+        height: 360
+        fieldOfView: 95.91
+        nearClipDistance: 0.16
+        on: true
+        elements:
+           Shape:
+            geometry:
+              type: Box
+              size: [0.05, 0.10, 0.15]
+            appearance:
+              material:
+                diffuseColor: [ 1, 0, 1 ]
+                shininess: 0.2
+      -
+        type: Camera
+        name: Front_SideR
+        translation: [ -0.5, -0.5, 0.6 ]
+        rotation: [ [0, 0, 1, -135], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        format: COLOR
+        width: 640
+        height: 360
+        fieldOfView: 95.91
+        nearClipDistance: 0.16
+        on: true
+        elements:
+           Shape:
+            geometry:
+              type: Box
+              size: [0.05, 0.10, 0.15]
+            appearance:
+              material:
+                diffuseColor: [ 0, 1, 1 ]
+                shininess: 0.2
+      -
+        type: Camera
+        name: Rear_SideL
+        translation: [ 0.2, 0.7, 0.6 ]
+        rotation: [ [0, 0, 1, 60], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        format: COLOR
+        width: 640
+        height: 360
+        fieldOfView: 95.91
+        nearClipDistance: 0.16
+        on: true
+        elements:
+           Shape:
+            geometry:
+              type: Box
+              size: [0.05, 0.10, 0.15]
+            appearance:
+              material:
+                diffuseColor: [ 1, 0, 1 ]
+                shininess: 0.2
+      -
+        type: Camera
+        name: Rear_SideR
+        translation: [ 0.2, -0.7, 0.6 ]
+        rotation: [ [0, 0, 1, -60], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        format: COLOR
+        width: 640
+        height: 360
+        fieldOfView: 95.91
+        nearClipDistance: 0.16
+        on: true
+        elements:
+           Shape:
+            geometry:
+              type: Box
+              size: [0.05, 0.10, 0.15]
+            appearance:
+              material:
+                diffuseColor: [ 0, 1, 1 ]
+                shininess: 0.2
+      -
+        type: Transform
         rotation: [ 1, 0, 0, 90 ]
         elements:
           -
