@@ -63,10 +63,11 @@ def loadProject(
     robot = pm.loadProject(os.path.join(projectdir_odens, robotProject + ".cnoid"), world)[0]
 
     if remoteType:
-        joystickInput = SimpleControllerItem()
-        joystickInput.name = robot.name + "-JoystickInput"
-        mainController = robot.getDescendantItems(SimpleControllerItem)[0]
-        mainController.addChildItem(joystickInput)
+        if remoteType == "RTM" or remoteType == "ROS":
+            joystickInput = SimpleControllerItem()
+            joystickInput.name = robot.name + "-JoystickInput"
+            mainController = robot.getDescendantItems(SimpleControllerItem)[0]
+            mainController.addChildItem(joystickInput)
 
         if remoteType == "RTM":
             joystickInput.setController("RemoteJoystickInputController")
@@ -82,7 +83,6 @@ def loadProject(
             robot.addChildItem(bodyPublisher)
 
         elif remoteType == "ROS_odens":
-            joystickInput.setController("JoyTopicSubscriberController")
             bodyROS = BodyROSItem()
             bodyROS.name = "BodyROS"
             robot.addChildItem(bodyROS)

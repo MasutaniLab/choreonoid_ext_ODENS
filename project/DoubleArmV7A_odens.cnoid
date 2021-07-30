@@ -27,13 +27,13 @@ items:
       children: 
         - 
           id: 2
-          name: "DoubleArmV7Controller"
+          name: "ROSDoubleArmV7Controller"
           plugin: Body
           class: SimpleControllerItem
           data: 
             isNoDelayMode: false
             controllerOptions: ""
-            controller: "DoubleArmV7Controller"
+            controller: "ROSDoubleArmV7Controller"
             baseDirectory: "Controller directory"
             reloading: true
         - 
