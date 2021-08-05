@@ -25,10 +25,12 @@ except:
 
 def loadProject(
     view, task, simulatorProjects, robotProject,
-    enableMulticopterSimulation = False, enableVisionSimulation = False, targetVisionSensors = "", remoteType = ""):
+    enableMulticopterSimulation = False, enableVisionSimulation = False, 
+    targetVisionSensors = "", remoteType = "", taskType = "WRS2020SG"):
 
     projectdir = os.path.join(shareDirectory, "WRS2020SG", "project")
     projectdir_odens = os.path.join(shareDirectory, "ODENS", "project")
+    taskdir = os.path.join(shareDirectory, taskType, "project")
     #directory = os.path.dirname(os.path.realpath(__file__))
     
     itv = ItemTreeView.instance
@@ -46,7 +48,7 @@ def loadProject(
 
     taskProject = SubProjectItem()
     taskProject.name = task
-    taskProject.load(os.path.join(projectdir, task + ".cnoid"))
+    taskProject.load(os.path.join(taskdir, task + ".cnoid"))
     world.addChildItem(taskProject)
     itv.expandItem(taskProject, False)
 
