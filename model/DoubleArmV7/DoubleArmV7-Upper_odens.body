@@ -55,7 +55,7 @@ links:
             type: Camera
             name: FRAME_LEFT_DEPTH_CAMERA
             translation: [ -0.5, 0, 0.5 ]
-            rotation: [ [0, 1, 0, 60], [1, 0, 0, 0]]
+            rotation: [ [0, 1, 0, 60], [1, 0, 0, 15]]
             format: COLOR_DEPTH
             width: 640
             height: 480
@@ -75,7 +75,7 @@ links:
             type: Camera
             name: FRAME_RIGHT_DEPTH_CAMERA
             translation: [ -0.5, 0, -0.5 ]
-            rotation: [ [0, 1, 0, 120], [1, 0, 0, 0]]
+            rotation: [ [0, 1, 0, 120], [1, 0, 0, 15]]
             format: COLOR_DEPTH
             width: 640
             height: 480
