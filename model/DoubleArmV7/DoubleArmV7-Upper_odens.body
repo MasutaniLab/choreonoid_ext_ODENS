@@ -971,8 +971,8 @@ links:
       -
         type: Camera
         name: Front_SideL
-        translation: [ -0.5, 0.5, 0.6 ]
-        rotation: [ [0, 0, 1, 135], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        translation: [ -0.475, 0.475, 0.6 ]
+        rotation: [ [0, 0, 1, 135], [ 0, 1, 0, -50 ], [0, 0, 1, -90]]
         format: COLOR
         width: 640
         height: 360
@@ -983,7 +983,7 @@ links:
            Shape:
             geometry:
               type: Box
-              size: [0.05, 0.10, 0.15]
+              size: [0.025, 0.05, 0.075]
             appearance:
               material:
                 diffuseColor: [ 1, 0, 1 ]
@@ -991,8 +991,8 @@ links:
       -
         type: Camera
         name: Front_SideR
-        translation: [ -0.5, -0.5, 0.6 ]
-        rotation: [ [0, 0, 1, -135], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        translation: [ -0.475, -0.475, 0.6 ]
+        rotation: [ [0, 0, 1, -135], [ 0, 1, 0, -50 ], [0, 0, 1, -90]]
         format: COLOR
         width: 640
         height: 360
@@ -1003,7 +1003,7 @@ links:
            Shape:
             geometry:
               type: Box
-              size: [0.05, 0.10, 0.15]
+              size: [0.025, 0.05, 0.075]
             appearance:
               material:
                 diffuseColor: [ 0, 1, 1 ]
@@ -1011,8 +1011,8 @@ links:
       -
         type: Camera
         name: Rear_SideL
-        translation: [ 0.2, 0.7, 0.6 ]
-        rotation: [ [0, 0, 1, 60], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        translation: [ 0.19, 0.665, 0.6 ]
+        rotation: [ [0, 0, 1, 60], [ 0, 1, 0, -50 ], [0, 0, 1, -90]]
         format: COLOR
         width: 640
         height: 360
@@ -1023,7 +1023,7 @@ links:
            Shape:
             geometry:
               type: Box
-              size: [0.05, 0.10, 0.15]
+              size: [0.025, 0.05, 0.075]
             appearance:
               material:
                 diffuseColor: [ 1, 0, 1 ]
@@ -1031,8 +1031,8 @@ links:
       -
         type: Camera
         name: Rear_SideR
-        translation: [ 0.2, -0.7, 0.6 ]
-        rotation: [ [0, 0, 1, -60], [ 0, 1, 0, -45 ], [0, 0, 1, -90]]
+        translation: [ 0.19, -0.665, 0.6 ]
+        rotation: [ [0, 0, 1, -60], [ 0, 1, 0, -50 ], [0, 0, 1, -90]]
         format: COLOR
         width: 640
         height: 360
@@ -1043,7 +1043,7 @@ links:
            Shape:
             geometry:
               type: Box
-              size: [0.05, 0.10, 0.15]
+              size: [0.025, 0.05, 0.075]
             appearance:
               material:
                 diffuseColor: [ 0, 1, 1 ]
