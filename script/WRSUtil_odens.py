@@ -63,7 +63,7 @@ def loadProject(
 
     for robotProject in robotProjects:
 
-        loadedItems = pm.loadProject(os.path.join(projectdir, robotProject + ".cnoid"), world)
+        loadedItems = pm.loadProject(os.path.join(projectdir_odens, robotProject + ".cnoid"), world)
         if not loadedItems:
             continue
         robot = loadedItems[0]
