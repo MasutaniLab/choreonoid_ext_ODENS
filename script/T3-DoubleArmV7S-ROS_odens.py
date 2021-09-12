@@ -1,4 +1,4 @@
 import WRSUtil_odens
 WRSUtil_odens.loadProject(
-    "SingleSceneView", "T2L", "AGXSimulator", "DoubleArmV7S_odens",
+    "SingleSceneView", "T3", "AISTSimulator", "DoubleArmV7S_odens",
     enableVisionSimulation = True, remoteType = "ROS_odens", taskType = "WRS2018")
