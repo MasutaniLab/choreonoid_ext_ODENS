@@ -26,7 +26,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/RoadSurface60m.body"
+                modelFile: "${SHARE}/WRS2020/model/RoadSurface60m.body"
                 currentBaseLink: "1_Base"
                 rootPosition: [ 0, 0, 0 ]
                 rootAttitude: [ 
@@ -49,7 +49,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/TunnelWall60m-L.body"
+                modelFile: "${SHARE}/WRS2020/model/TunnelWall60m-L.body"
                 currentBaseLink: "1_Base"
                 rootPosition: [ 0, 0, 0 ]
                 rootAttitude: [ 
@@ -72,7 +72,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/TunnelWall60m-R.body"
+                modelFile: "${SHARE}/WRS2020/model/TunnelWall60m-R.body"
                 currentBaseLink: "1_Base"
                 rootPosition: [ 0, 0, 0 ]
                 rootAttitude: [ 
@@ -95,7 +95,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Flag1L.body"
+                modelFile: "${SHARE}/WRS2020/model/Flag1L.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 2.5, -1.5, 0 ]
                 rootAttitude: [ 
@@ -118,7 +118,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Flag1R.body"
+                modelFile: "${SHARE}/WRS2020/model/Flag1R.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 2.5, 1.5, 0 ]
                 rootAttitude: [ 
@@ -141,7 +141,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Flag2L.body"
+                modelFile: "${SHARE}/WRS2020/model/Flag2L.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 23.5, -1.5, 0 ]
                 rootAttitude: [ 
@@ -164,7 +164,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Flag2R.body"
+                modelFile: "${SHARE}/WRS2020/model/Flag2R.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 23.5, 1.5, 0 ]
                 rootAttitude: [ 
@@ -187,7 +187,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Flag3L.body"
+                modelFile: "${SHARE}/WRS2020/model/Flag3L.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 58, -1.5, 0 ]
                 rootAttitude: [ 
@@ -210,7 +210,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Flag3R.body"
+                modelFile: "${SHARE}/WRS2020/model/Flag3R.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 58, 1.5, 0 ]
                 rootAttitude: [ 
@@ -233,7 +233,7 @@ items:
               plugin: Body
               class: BodyItem
               data: 
-                modelFile: "${SHARE}/WRS2020SG/model/Target1.body"
+                modelFile: "${SHARE}/WRS2020/model/Target1.body"
                 currentBaseLink: "BASE"
                 rootPosition: [ 5, 0, 0 ]
                 rootAttitude: [ 
