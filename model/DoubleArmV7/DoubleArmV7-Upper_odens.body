@@ -740,7 +740,27 @@ links:
                 type: Shape
                 translation: [ -0.20, 0.12625, 0.0 ]
                 rotation: [ 0, 0, 1, 87 ]
-                geometry: { type: Cylinder, radius: 0.050, height: 0.180 }
+                geometry: { type: Cylinder, radius: 0.050, height: 0.180 }              
+          - 
+            type: Camera
+            name: Lower_Hand_Task_Camera
+            rotation: [[ 1, 0, 0, 180 ] , [ 0, 0, 1, -90 ]]
+            translation: [ -0.45, -0.0, 0.0 ]
+            format: COLOR
+            width: 1280
+            height: 720
+            fieldOfView: 110.0
+            farClipDistance: 5
+            on: false
+            elements:
+             Shape:
+               geometry:
+                 type: Box
+                 size: [0.01, 0.02, 0.03]
+               appearance:
+                 material:
+                   diffuseColor: [ 1, 0, 1 ]
+                   shininess: 0.2
   -
     name: TOHKU_TIP_01
     parent: TOHKU_ROLL
@@ -2013,6 +2033,25 @@ links:
         name: Handtip_Camera
         translation: [0.12, -0.03, 0.0 ]
         rotation: [0, 1, 0, -90]
+        format: COLOR
+        width: 1280
+        height: 720
+        fieldOfView: 40
+        farClipDistance: 5
+        nearClipDistance: 0.05
+        on: true
+        elements:
+           Shape:
+            geometry:
+              type: Box
+              size: [0.01, 0.02, 0.03]
+            appearance:
+              material:
+                diffuseColor: [ 1, 0, 1 ]
+                shininess: 0.2
+        name: Handtip_Task_Camera
+        translation: [0.12, -0.03, 0.0 ]
+        rotation: [0, 0, 1, 90]
         format: COLOR
         width: 1280
         height: 720
